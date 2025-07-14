@@ -9,5 +9,3 @@ driver.find_element(By.ID, "email").send_keys("Saraswat")
 driver.find_element(By.ID, "password").send_keys("Lion@123")
 driver.find_element(By.CSS_SELECTOR, "button[id ='login-card-submit-button']").click()
 time.sleep(10)  # keeps the browser open for 10 seconds
-#print(drbranch
-# iver.current_url)
