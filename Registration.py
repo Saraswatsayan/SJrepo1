@@ -22,7 +22,8 @@ driver.find_element(By.CSS_SELECTOR, "#lastName").send_keys(random_lastname)
 driver.find_element(By.CSS_SELECTOR, "#email").send_keys(random_email)
 driver.find_element(By.CSS_SELECTOR, "#password").send_keys("Lion@123")
 
-dropdown = Select(driver.find_element(By.NAME, "country"))
+#dropdown selection
+dropdown = Select(driver.find_element(By.NAME, "country")) #dropdown selection
 dropdown.select_by_value("IN")
 
 division = Select(driver.find_element(By.NAME, "hierarchy"))
